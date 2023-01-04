@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+project is based on the tutorial found here: https://scrimba.com/playlist/pYkgpAP
 
 ## Available Scripts
 
