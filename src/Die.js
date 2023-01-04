@@ -1,9 +1,13 @@
 import React from "react";
 
 export default function Die(props){
+    const styles = {
+        backgroundColor: props.isHelf ? "#59E391" : "azure"
+    }
+
     return(
         <main>
-            <div className= "dice-face">
+            <div className= "dice-face" style={styles}>
                 <h2 className="die-num">{props.value}</h2>
             </div>
         </main>
