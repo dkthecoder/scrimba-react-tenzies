@@ -7,8 +7,8 @@ export default function Die(props){
 
     return(
         <main>
-            <div className= "dice-face" style={styles}>
-                <h2 className="die-num">{props.value}</h2>
+            <div className= "dice-face" style={styles} onClick={props.holdDice}>
+            <h2 className="die-num">{props.value}</h2>
             </div>
         </main>
     )
